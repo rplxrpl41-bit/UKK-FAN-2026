@@ -1,0 +1,1 @@
+<?php require 'cek_akses.php'; ?><!doctype html><html lang="id"><head><meta charset="utf-8"><title>Eksport</title></head><body><h1>Eksport</h1><p>Halaman eksport laporan. Fitur eksport penuh dapat dikembangkan selanjutnya.</p><p><a href="dashboard.php">Kembali ke Dashboard</a></p></body></html>

@@ -1,0 +1,12 @@
+REVISI DATA KELAS
+
+Project ini disiapkan agar pilihan kelas hanya XI RPL1 dan XI RPL2.
+
+LANGKAH PENTING:
+1. Backup database db_ukk_2026 terlebih dahulu melalui phpMyAdmin > Export.
+2. Buka phpMyAdmin dan pilih database db_ukk_2026.
+3. Pilih tab Import atau SQL, lalu jalankan file MIGRASI_KELAS_XI_RPL1_RPL2.sql.
+4. Pastikan hasil SELECT terakhir hanya menampilkan XI RPL1 dan XI RPL2.
+5. Salin folder project ini ke htdocs jika ingin mengganti project lama.
+
+Catatan: migrasi mengalihkan penempatan siswa, wali kelas, dan catatan pelanggaran lama ke dua kelas tersebut berdasarkan ID kelas lama (ID ganjil ke XI RPL1, ID genap ke XI RPL2), sehingga data historis tetap tersimpan.

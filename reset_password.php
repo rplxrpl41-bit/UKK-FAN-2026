@@ -1,0 +1,1 @@
+<?php require 'cek_akses.php'; ?><!doctype html><html lang="id"><head><meta charset="utf-8"><title>Reset Password</title></head><body><h1>Reset Password</h1><p>Halaman reset password untuk admin.</p><p><a href="dashboard.php">Kembali ke Dashboard</a></p></body></html>
